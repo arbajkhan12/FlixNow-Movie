@@ -1,0 +1,443 @@
+ .detailspagedata {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   padding-left: 4rem;
+   padding-right: 5rem;
+   padding-top: 1.5rem;
+   padding-bottom: 2rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+
+ .dataNav {
+   width: 18%;
+   display: flex;
+   align-items: center;
+   height: 3rem;
+   margin-bottom: 2rem;
+   justify-content: space-between;
+ }
+
+ .dataNav a {
+   color: #fff;
+   font-size: 1.5rem;
+ }
+
+ .dataNav a:hover {
+   color: #6556cd;
+ }
+
+
+
+ .poster-left img {
+   width: 15rem;
+   height: 22rem;
+
+   border-radius: 0.6rem;
+   margin-right: 0.8rem;
+ }
+
+ .rent_and_details .loga_path_img {
+   width: 2rem;
+   height: 2rem;
+   cursor: pointer;
+
+ }
+
+ .rental h3 {
+   color: #fff;
+   font-weight: 500;
+   font-size: 1.1rem;
+   margin-bottom: 0.5rem;
+   margin-top: 0.4rem;
+ }
+
+ .poster-inside {
+
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+
+   padding-bottom: 1rem;
+ }
+
+ .poster_details,
+ .poster-inside {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+ }
+
+ .poster-left {
+   width: 30%;
+ }
+
+ .poster-right {
+   width: 70%;
+ }
+
+
+ .poster-right .movie-name-head {
+   font-size: 3rem;
+   color: #fff;
+   font-weight: 700;
+
+ }
+
+ .poster-right h1{
+  color: #fff;
+ }
+
+ .poster-right h1 .small-tag {
+   font-size: 1.5rem;
+   color: #c5c5c5;
+ }
+
+ .votes {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+ }
+
+.votes h1{
+  color: #fff;
+  font-size: 1rem;
+ }
+
+ .vote-item {
+   width: 3rem;
+   height: 3rem;
+   background-color: #ccae05;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   flex-shrink:0;
+ }
+
+
+ .genras h1 {
+   font-size: 1rem;
+   font-weight: 500;
+
+ }
+
+ .date span {
+   font-size: 1rem;
+   font-weight: 500;
+   margin-right: 1rem;
+ }
+
+ .common-div {
+   margin-top: 1rem;
+ }
+
+ .genras h1 span {
+   font-size: 1.2rem;
+   margin-right: 1rem;
+ }
+
+ .wallpaper-btn {
+   display: inline-block;
+   width: 9rem;
+   height: 3rem;
+   background-color: #6556cd;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--white);
+   border-radius: 0.5rem;
+   margin-top: 1rem;
+   font-weight: 600;
+ }
+
+ .hr-rule {
+   height: 1px;
+   background-color: #333;
+ }
+
+ .rules {
+   width: 15rem;
+   margin: 0.5rem 0;
+ }
+
+ .remixicon {
+   color: #fff;
+   font-size: 1.3rem;
+   margin-right: 0.5rem;
+ }
+
+ .Trailer-data {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+ }
+
+ .info-person {
+   font-size: 1.3rem;
+   font-weight: 600;
+   color: #bdbdbd;
+   margin: 1rem 0;
+ }
+
+ .person-dt {
+   font-size: 1rem;
+   font-weight: 600;
+   color: #bdbdbd;
+   margin-bottom: 1rem;
+ }
+
+ .person-ab {
+   font-size: 0.9rem;
+   margin-top: 0.3rem;
+ }
+
+ .person-posters > div {
+  flex: 1 1 45%; 
+  min-width: 250px; 
+  margin: 0 10px; 
+}
+
+ .person-posters {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   overflow-x: hidden;
+   max-width: 100%;
+ }
+
+
+
+ .poster-right-info {
+   width: 74%;
+
+ }
+
+ .bio {
+   color: #fff;
+   margin-bottom: 1rem;
+ }
+
+ .person-name {
+   color: #fff;
+   margin-bottom: 0.5rem;
+ }
+
+ .role {
+   margin-bottom: -1rem;
+ }
+
+
+ .person {
+   width: 100%;
+   overflow-x: hidden;
+   position: relative;
+ }
+
+ .acting-details {
+   width: 100%;
+   height: 50vh;
+   overflow-x: hidden;
+   overflow-y: auto;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   margin-top: 1rem;
+   margin-bottom: 0.5rem;
+   padding: 1rem 1rem;
+ }
+
+ .acting-details li {
+   list-style: circle;
+
+   color: #fff;
+   padding: 0.6rem;
+ }
+
+ .acting-details li span {
+   color: #fff;
+ }
+
+ .acting-details li:hover {
+   background-color: #19191d;
+ }
+
+ .block {
+   display: block;
+   margin-left: 1.5rem;
+   margin-top: 0.3rem;
+ }
+
+@media (max-width: 865px) {
+  .poster-left,
+  .poster-right,
+  .poster-right-info {
+    width: 100%;
+  }
+
+  .poster-left img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    max-height: 60vh;
+    object-fit: cover;
+  }
+
+  .poster-right h1 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+  .poster-right h1 {
+    font-size: 2.2rem;
+    text-align: left;
+  }
+
+  .poster-right h1 .small-tag {
+    font-size: 1.1rem;
+   
+  }
+
+  .rental h3,
+  .info-person,
+  .person-dt,
+  .bio,
+  .person-name,
+  .role {
+    font-size: 1rem;
+  
+  }
+
+  .genras h1,
+  .genras h1 span,
+  .person-ab {
+    font-size:1rem;
+    line-height: 1rem;
+    text-align: left;
+  }
+
+  .acting-details li {
+    font-size: 0.9rem;
+  }
+
+  .votes h1{
+    font-size: 1rem;
+  }
+
+  .Trailer-data .palyer {
+    height: 250px !important;
+    max-height: 250px !important;
+  }
+
+  .Trailer-data i{
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .poster-right h1 {
+    font-size: 1rem;
+  }
+
+  .poster-right h1 .small-tag {
+    font-size: 1rem;
+  }
+
+  .vote-item h1{
+    font-size: 1rem;
+  }
+
+  .rental h3,
+  .info-person,
+  .person-dt,
+  .bio,
+  .person-name,
+  .role {
+    font-size: 1rem;
+  }
+
+  .genras h1 span,
+  .person-ab {
+    font-size: 1rem;
+   
+  }
+
+  .acting-details li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px){
+  
+  .votes h1{
+    font-size: 0.8rem;
+  }
+
+  .Trailer-data .palyer {
+    height: 200px !important;
+    max-height: 200px !important;
+  }
+
+  .Trailer-data i{
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .poster-right h1 {
+    font-size: 1.5rem;
+  }
+
+  .poster-right h1 .small-tag {
+    font-size: 1rem;
+  }
+
+  .rental h3,
+  .info-person,
+  .person-dt,
+  .bio,
+  .person-name,
+  .role {
+    font-size: 0.85rem;
+  } 
+
+  .genras h1,
+  .genras h1 span,
+  .person-ab {
+    font-size: 1rem;
+  }
+
+  .acting-details li {
+    font-size:1 rem;
+  }
+
+  .votes {
+   display: flex;
+  
+   flex-direction: column;
+   align-items: flex-start;
+  }
+
+  .votes  h1{
+    font-size: 0.8rem;
+    margin-top: -1.5rem;
+  }
+
+  .small-tag{
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 400px){
+.detailspagedata{
+ padding-left: 1rem;
+   padding-right: 1rem;
+ 
+}
+
+}
