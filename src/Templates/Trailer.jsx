@@ -13,7 +13,7 @@ function Trailer() {
 
     return ytvideo ? (
         <div className='Trailer-data'>
-            <ReactPlayer controls width="95%" height={600} style={{background : "#000" , marginTop : "12px"}} className="palyer" url={`https://www.youtube.com/watch?v=${ytvideo.key}`} />
+            <ReactPlayer controls width="94%" height={500} style={{background : "#000" , marginTop : "12px"}} className="palyer" url={`https://www.youtube.com/watch?v=${ytvideo.key}`} />
             <i onClick={() => navigate(-1)} class="ri-close-line"></i>
         </div>
     ): <NotFound/>

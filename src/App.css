@@ -115,7 +115,7 @@ select a {
 
 .Trailer-data{
   width: 100%;
-  padding-left: 3rem;
+  padding-left: 4rem;
   padding-top: 4rem;
   display: flex;
   align-items: center;
@@ -347,3 +347,11 @@ select a {
   
 }
 
+@media (max-width: 460px){
+.Trailer-data{
+  padding-left: 1rem;
+
+
+}
+
+}

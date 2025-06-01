@@ -126,7 +126,7 @@ const MovieDetails = () => {
             </div>
 
             <NavLink  to={`${pathname}/trailer`} className="wallpaper-btn">
-              <i class="ri-play-fill"></i>
+              <i className="ri-play-fill"></i>
               Watch Trailer
             </NavLink>
           </div>
